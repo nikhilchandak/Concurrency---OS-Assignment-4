@@ -1,20 +1,21 @@
-Back to College 
+# Back to College 
 
-How to run:
-make -f makefile
-./a.out
+## How to run:
 
-Info:
+`$ make -f makefile`
+`$ ./a.out`
 
-This is implemented via busy waiting and mutex. Files:
+## Info:
 
-students.c 	- 	initializes student, waits to find an empty vaccination slot and goes for antibody test after vaccination
-pharma.c 	-	prepares group of batches of vaccines which are collected by vaccination zones
-zone.c 		-	Finds a free pharmaceutical, takes a vaccine batch from it and prepares slot for student and treats them.
-headers.h	- 	Header file containing all the essential constants and function declarations
-main.c 		- 	For helper functions and initialization of mutexes and threads 
+Solution is implemented via busy waiting and mutex. Files:
 
-Assumption:
+* `students.c` — Initializes student, waits to find an empty vaccination slot and goes for antibody test after vaccination.
+* `pharma.c` — Prepares group of batches of vaccines which are collected by vaccination zones.
+* `zone.c` — Finds a free pharmaceutical, takes a vaccine batch from it and prepares slot for student and treats them.
+* `headers.h`	—	Header file containing all the essential constants and function declarations.
+* `main.c` — 	For helper functions and initialization of mutexes and threads. 
 
-n, m, o will be given greater than 0 otherwise it doesn't make sense to go back to college. 
-Max input of each of n, m, o will be < 500. 
+## Assumption:
+
+`n`, `m`, `o` will be given greater than 0. Otherwise, it doesn't make sense to go back to college. 
+Max input of each of `n`, `m`, `o` will be < 500. 
