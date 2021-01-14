@@ -1,14 +1,14 @@
 # Concurrency — Operatings Systems Assignment 4 
 
 This repository contains my solutions for the concurrency assignment given in the Operating Systems & Networking course I took at IIIT, Hyderabad during my 3rd semester.
-I have presented a summary about the problem and implementation below. Please check the file `questions.pdf` to know more about the details of the questions.
+I have presented a summary about the problem and implementation below. For more details about the questions, please check the file `Assignment 4 Concurrency.pdf`. All my code is implemented in C and POSIX library is used for threads. 
 
 ## Q1 — Concurrent Merge Sort
 
 Merge Sort is implemented in two different forms:
 
 1. Using processes 
-2. Using threads (through POSIX library)
+2. Using threads
 
 Performance comparison of these variants and the traditional Merge Sort is also presented in the README.txt 
 
