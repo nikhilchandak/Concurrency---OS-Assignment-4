@@ -3,6 +3,7 @@
 ## How to run:
 
 `$ make -f makefile`
+
 `$ ./a.out`
 
 ## Info:
